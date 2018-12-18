@@ -1,6 +1,6 @@
 body {
-  /* background-color: pink; */
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+
 }
 
 h1 {
@@ -29,19 +29,22 @@ button {
 
 /* |CONTAINER| */
 .container{
-  display: flex;
+  display: inline-block;
+  width: 60%;
 }
 .announcements, .alerts {
-  flex-direction: column;
+  display: inline-block;
 }
 
 li {
   padding: 2px;
-  margin-left: 5px;
+  text-align: right;
+  position: right;
+
 }
 
 .photo {
-  border: solid pink 2px;
+  display: inline-block;
 }
 
 /* |BUTTONS| */
